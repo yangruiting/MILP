@@ -15,6 +15,12 @@ tqdm==4.43.0
 
 All train-graph and ind-test-graph pairs of graphs can be found in the `data` folder. We use WN18RR_v1 as a runninng example for illustrating the steps.
 
+
+## datasets
+Download the datasets from
+https://drive.google.com/drive/folders/17akMadQa0xJm8-zgEVXACX15cTmALpON?usp=sharing
+
+
 ### MILP
 To start training a MILP model, run the following command. 
 `python train.py -d WN18RR_v1 -e WN18RR_v1`
